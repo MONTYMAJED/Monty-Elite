@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* btn styles */
+      #Main-minuo{
+            position: fixed;
+            margin-top: -20px;
+            /* margin-left: 5px; */
+            padding: 30px;
+            background-color: rgb(9, 53, 55);
+            width: 100%;
+            height: 70px;
+            box-sizing: border-box;
+            
+        
+        }
+        
+        .Minuo > .btn {
+            margin-right: 20px;
+            text-decoration: none;
+            color: white;
+            padding: 0px;
+            /* border-radius: 20px; */
+            font-size: 18px;
+            transition: color, font-size, 1s;
+            /* background-color: rgba(210, 234, 230, 0); */
+            /* box-sizing: unset; */
+            box-sizing: border-box;
+            
+        }
+        .Minuo >.active {
+                color:rgb(214, 144, 15);
+                border: none;
+            }
+        .Minuo > .btn:hover {
+            color: rgb(236, 162, 24);
+            font-size: larger;}
+
+
+        #main{
+            display: flex;
+            width: 100%;
+            margin-top: 20px;
+            margin-left: 90px;
+            
+        }
+        .pic{
+            display: flex;
+            width: 300px;
+            height: 250px;
+            background-color: blue;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            transition: width , hight ,position, 3s;
+            border-radius: 7px;
+            
+            
+        }
+        .pic:hover{
+         width: 350px;   
+         height: 260px;
+         position:static -ms-page;
+         border-radius:10px
+        }
+        body{
+           margin: 0; 
+        }
+        .photo{
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+        }
+        .icon{
+              /* opacity: .6; */
+              cursor: pointer;
+              
+            }
+            .imge{
+              transition: background-color 1s;
+              opacity: .4;
+            }
+          
+            #a{
+              transition: background-color 1s;
+            }
+            #a:hover{
+              background-color: rgb(0, 255, 26);
+            }
+            #b{
+              transition: background-color 1s;
+            }
+            #b:hover{
+              background-color: rgb(255, 53, 53);
+            }
+            #c{
+              transition: background-color 1s;
+            }
+            #c:hover{
+              background-color: rgb(50, 50, 255);
+            }
+            #d{
+              transition: background-color 1s;
+            }
+            #d:hover{
+              background-color:yellow;
+            }
+        
+    </style>
+</head>
+<body style="margin: 0; ">
+    <div style="display: flex; width: 100%;">    
+          <!-- Main minuo -->
+      <div id="Main-minuo" style="display: flex;">
+        <!-- Titles -->
+        <div class="Minuo">
+            <a href="gallery.html" class="btn active">Gallery</a>
+            <a href="elite.html" class="btn ">Home</a>
+            <a href="about us.html" class="btn">About Us</a>
+            <a href="services.html" class="btn">Services</a>
+            
+            <a href="contact us.html" class="btn">Contact Us</a>
+            
+            
+        </div>
+         <!-- //Titles// -->
+         <!-- <div style="float: right;height: 20%;width: 20%;">
+            <img src="./photos/CH1.jpeg" alt="">
+        </div> -->
+        <!-- <img src="./photos/logo.jpg" alt="" style="height: 60px;width: 60px;border-radius: 12px;display: flex;margin-left: 600;"> -->
+        
+
+            <!-- </div> -->
+            <!-- //Main minuo //--> 
+
+    </div> 
+       
+        <img src="./photos/gallery.jpg" alt="" style="display: flex;width: 100%;height: 400px; position: static;">
+      
+
+        
+    </div>
+    <div id="cover" style="display: flex;width: 100%; height: 100px; background-color: rgba(247, 208, 131, 0.184);justify-content: center;text-align: center;"> 
+        <h1 style="color:rgba(2, 36, 4, 0.878); ">Gallery <br><p  style="font-size: 15px;">Step into our elite prestige gallery, where luxury and refinement meet. Explore a curated collection of exquisite artworks and finely 
+            crafted artifacts that embody unparalleled craftsmanship and elegance.</p></h1> 
+        
+       </div>
+    
+    
+    
+  
+    
+    
+    
+
+    <div id="main">
+        <div class="pic"  > <img src="./photos/E1.jpg" alt="" class="photo"></div>
+        <div class="pic"> </div>
+        
+        
+        <div class="pic"></div>
+        <div class="pic"> <img src="./photos/E1.jpg" alt="" class="photo" ></div>
+        
+
+    </div>
+    <div id="main">
+        <div class="pic"> <img src="./photos/E1.jpg" alt="" class="photo"></div>
+        <div class="pic"> </div>
+       
+        
+        <div class="pic"></div>
+        <div class="pic"> <img src="./photos/E1.jpg" alt="" class="photo"></div>
+        
+
+    </div>
+    <div id="main">
+        <div class="pic"> <img src="./photos/E1.jpg" alt="" class="photo"></div>
+        <div class="pic"> </div>
+       
+        
+        <div class="pic"></div>
+        <div class="pic"> <img src="./photos/E1.jpg" alt="" class="photo"></div>
+        
+
+    </div>
+    <div id="main">
+        <div class="pic"> <img src="./photos/E1.jpg" alt="" class="photo"></div>
+        <div class="pic"> </div>
+        
+        
+        <div class="pic"></div>
+        <div class="pic"> <img src="./photos/E1.jpg" alt="" class="photo"></div>
+        
+
+    </div>
+    <!-- contacts -->
+    <div style="display: flex; width: 100%; height: 300px; background-color: rgba(10, 10, 10, 0.955);">
+        <div style="display: flex;width: 40%;">
+          <img src="./photos/logo.jpg" alt="" style="display: flex; position: absolute;width: 70px;height: 70px;border-radius: 12px;margin-top: 188px;margin-left: 483px;">
+          <h5 style="position: absolute;margin-top: 262px;margin-left: 466px;color: rgb(85, 85, 11);">Elite Prestige</h5>
+          <h3 style="color: white; margin-top: 20px; margin-left: 7px;" class="poetsen-one-regular">
+            Who We Are  <hr>
+            <p style="font-size: 14px; color: rgba(202, 194, 194, 0.856);"><br>
+              Elite Prestige Conference & Events, where unparalleled excellence meets seamless sophistication in the world of event <organization class="br"></organization> At Elite Prestige, we take pride in curating extraordinary experiences that transcend expectations, elevating each event to a prestigious affair.
+            </p>
+          </h3>
+          <!-- media icons -->
+          <div style="margin: 0px; margin-top: 218px;margin-left: 20px;display: flex; position: absolute; border-radius: 50%;"  class="icon">
+            <div style="display: flex;border-radius: 50%; " id="a">
+            <a href="https://wa.me/050 582 2200" style="color: rgba(128, 128, 128, 0);margin-left: 0px;">
+              <img src="./Media icons/whatsapp.webp" alt="" style="display: flex;width: 30px;height: 30px;border-radius: 50%; " class="imge" id="whats"></a>
+            </div>
+          </div>
+          <div style="margin: 0px; margin-top: 218px;margin-left: 80px;display: flex; position: absolute;" class="icon">
+            <div style="display: flex;border-radius: 50%;" id="b">
+            <a href="https://www.instagram.com/eliteprestigeae?igsh=MWZhdDZuZ3RmendoZQ" style="color: rgba(128, 128, 128, 0);margin-left: 0px;">
+              <img src="./Media icons/instegram.jpg" alt="" style="display: flex;width: 30px;height: 30px;border-radius: 50%;" class="imge" id="insta">
+            </a>
+          </div>
+          </div>
+          <div style="margin: 0px; margin-top: 218px;margin-left: 140px;display: flex; position: absolute;" class="icon">
+            <div style="display: flex;border-radius: 50%;" id="c">
+            <a href="https://www.facebook.com/profile.php?id=61556178035716&mibextid=2JQ9oc" style="color: rgba(128, 128, 128, 0);margin-left: 0px;">
+              <img src="./Media icons/facebook.avif" alt="" style="display: flex;width: 30px;height: 30px;border-radius: 50%;" class="imge" id="face">
+            </a>
+          </div>
+          </div>
+          <div style="margin: 0px; margin-top: 218px;margin-left: 200px;display: flex; position: absolute;" class="icon">
+            <div style="display: flex;border-radius: 50%;" id="d">
+            <a href="https://www.snapchat.com/add/eliteprestigeae" style="color: rgba(128, 128, 128, 0); margin-left: 0px;">
+              <img src="./Media icons/sn.jpeg" alt="" style="display: flex;width: 30px;height: 30px;border-radius: 50%;" class="imge" id="snap">
+             </a>
+            </div>
+          </div>
+          
+          <!-- // media icons //-->
+         
+  
+        </div>
+        <div style="display: flex;width: 30%;">
+          <h4 style="margin-left: 150px;color: white;margin-top: 35px;" class="poetsen-one-regular">EXPLORE <hr>  
+             <span>  <a href="./elite.html" style="color: rgba(255, 255, 255, 0.486); font-size: 18px;">Home</a>  </span>
+            <br> <br><span>  <a href="./about us.html" style="color: rgba(255, 255, 255, 0.486); font-size: 18px;">About Us</a>  </span>
+            <br> <br><span>  <a href="./contact us.html" style="color: rgba(255, 255, 255, 0.486); font-size: 18px;">Contact Us</a>  </span>
+          </h4> 
+          
+  
+        </div>
+        <div style="display: flex;width: 30%;">
+          <h4 style="margin-left: 160px;color: white;margin-top: 35px;" class="poetsen-one-regular">Get in Touch <hr> 
+          <p style="font-size: 12px; color: rgba(202, 194, 194, 0.856);">
+            1st Floor Office 101, Sheikh Ahmed Bin Shaikh Ahmad Bin Nasser bin Zayed Al Nahyan Building (same bldg. of Graphic behind Lulu Supermarket), 
+            Hamdan St., Abu Dhabi, UAE  <br><br><span> Tell:<a href="https://wa.me/50 582 2200" style="color: rgba(255, 255, 255, 0.486); font-size: 12px;">+971 50 582 2200</a></span>
+            <br> <br><span> Email:<a href="Eliteprestige80@gmail.com" style="color: rgba(255, 255, 255, 0.486); font-size: 12px;">Eliteprestige80@gmail.com</a></span>
+            </p> </h4>
+  
+        </div >
+  
+      </div>
+       <!-- contacts -->
+    
+</body>
+<script>
+    
+</script>
+</html>

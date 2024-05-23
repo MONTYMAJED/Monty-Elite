@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://github.com/google/fonts.git"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <!-- google font 2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Animation -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- Animation -->
+    <style>
+      /* btn styles */
+      #Main-minuo{
+            position: absolute;
+            margin-top: -20px;
+            /* margin-left: 5px; */
+            padding: 30px;
+            background-color: rgb(9, 53, 55);
+            width: 100%;
+            height: 70px;
+            box-sizing: border-box;
+            
+        
+        }
+        
+        .Minuo > .btn {
+            margin-right: 20px;
+            text-decoration: none;
+            color: white;
+            padding: 0px;
+            /* border-radius: 20px; */
+            font-size: 18px;
+            transition: color, font-size, 1s;
+            /* background-color: rgba(210, 234, 230, 0); */
+            /* box-sizing: unset; */
+            box-sizing: border-box;
+            
+        }
+        .Minuo >.active {
+                color: rgb(214, 144, 15);
+                border: none;
+            }
+        .Minuo > .btn:hover {
+            color:rgb(236, 162, 24);
+            font-size: larger;
+
+        }
+        /*//btn styles// */
+        /* #content{
+            margin: 0;
+            display: flex;
+        }
+        #minuoo{
+            display: flex;
+            position: fixed;
+            background-color: blue;
+            width: 80%;
+            
+        }
+        .minuoo > .btn {
+            margin-right: 20px;
+            text-decoration: none;
+            color: black;
+            padding: 5px;
+            border-radius: 20px;
+            font-size: 15px;
+            transition: background-color 1s;
+            background-color: rgba(210, 234, 230, 0.451);}
+            .minuoo >.active {
+                background-color: rgba(196, 154, 71, 0.579);
+            }
+             .minuoo > .btn:hover {
+            background-color: rgba(175, 180, 89, 0.838);} */
+            .card{
+                margin-right: 16px;
+            }
+            .card-img{
+                width: 100%;
+                height: 100%;
+            }
+            .card-text{
+                color: rgb(255, 255, 255);
+                background-color: rgba(128, 128, 128, 0.326);
+            }
+            .poetsen-one-regular {
+                font-family: "Poetsen One", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+            .resone{
+              color: rgba(58, 50, 8, 0.91);
+              justify-content: center;
+              text-align: center;
+              align-items: center;
+            }
+            .icon{
+              /* opacity: .6; */
+              cursor: pointer;
+              
+            }
+            .imge{
+              transition: background-color 1s;
+              opacity: .4;
+            }
+          
+            #a{
+              transition: background-color 1s;
+            }
+            #a:hover{
+              background-color: rgb(0, 255, 26);
+            }
+            #b{
+              transition: background-color 1s;
+            }
+            #b:hover{
+              background-color: rgb(255, 53, 53);
+            }
+            #c{
+              transition: background-color 1s;
+            }
+            #c:hover{
+              background-color: rgb(50, 50, 255);
+            }
+            #d{
+              transition: background-color 1s;
+            }
+            #d:hover{
+              background-color:yellow;
+            }
+            .roboto-light-italic {
+              font-family: "Roboto", sans-serif;
+              font-weight: 300;
+              font-style: italic;
+            }
+            
+          
+           
+
+           
+        
+    </style>
+</head>
+
+
+<body style="margin: 0%;background-color: rgba(36, 57, 66, 0.073)">
+  
+   
+  <div id="content" >
+    <!-- <div style="display: flex;position: fixed;width: 30%;height: 50px;align-items: center;background-color: rgba(130, 140, 42, 0.053);border-radius: 17px; ">
+        <div class="minuoo" >
+            <a href="services.html" class="btn active">Services</a>
+            <a href="elite.html" class="btn ">Home</a>
+            <a href="contact us.html" class="btn">Contact Us</a>
+        </div>
+        
+            
+        
+        
+       
+        
+    </div> -->
+    
+    <!-- Main minuo -->
+        <div id="Main-minuo" style="display: flex;">
+            <!-- Titles -->
+            <div class="Minuo">
+              <a href="services.html" class="btn active">Services</a>
+                <a href="elite.html" class="btn ">Home</a>
+                <a href="about us.html" class="btn">About Us</a>
+                <a href="gallery.html" class="btn">Gallery</a>
+                
+                <a href="contact us.html" class="btn">Contact Us</a>
+               
+                
+            </div>
+             <!-- //Titles// -->
+             <!-- <div style="float: right;height: 20%;width: 20%;">
+                <img src="./photos/CH1.jpeg" alt="">
+            </div> -->
+            <!-- <img src="./photos/logo.jpg" alt="" style="height: 60px;width: 60px;border-radius: 12px;display: flex;margin-left: 600;"> -->
+    
+        </div>
+         <!-- //Main minuo //-->
+
+
+    </div>
+    
+    
+    
+      <div style="display: flex;  width: 100%; height: 400px;margin:0dvb;">
+        <img src="./photos/event manage.webp" alt="" style="width: 100%;">
+        <!-- <h1 style="position: absolute;">Hello world</h1> -->
+
+      </div>
+   
+    
+    
+
+  </div>
+  <!-- The title of our services  -->
+  <div style="display: flex;width: 100%;height: 100px;" >
+    <h1 style="color: rgba(152, 129, 15, 0.871); margin-left: 10px;" class="animate__animated animate__zoomIn">Elite Prestige Survices <br> <span style="font-size: 25px;color: rgb(0, 0, 0);">Book everything you need for your business events:</span> </h1>
+    
+
+
+  </div>
+  <!-- //The title of our services//  -->
+  <!-- Our services  -->
+  <div style="display: flex; width: 100%; justify-content: space-between; margin-left: 1px;margin-right: 1px;padding: 5px; background-color: rgba(255, 235, 205, 0.327);">
+    <div class="card text-bg-dark" class="card" >
+        <img src="./photos/CH1.jpeg" class="card-img" alt="..." >
+        <div class="card-img-overlay animate__animated animate__slideInRight">
+          <h5 class="card-title">Private Chef</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, incidunt. Expedita voluptatum illo tempora in aliquid! Doloremque deleniti maiores molestias magnam fugiat obcaecati modi. Nulla facere dignissimos provident quia modi!</p>
+          
+        </div>
+      </div>
+      <div class="card text-bg-dark" class="card ">
+        <img src="./photos/E1.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay animate__animated animate__slideInRight">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small>Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card text-bg-dark" class="card">
+        <img src="./photos/C1.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay animate__animated animate__slideInRight">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small>Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      
+      </div>
+      
+      
+      
+
+  </div>
+  <!-- //Our services // -->
+  <!-- become partner -->
+  <div style="display: flex;background-color: rgba(36, 57, 66, 0.089); width: 100%; height: 100px; align-items: center;margin-top: 15px;border-radius: 20px;">
+    <h1 style="color: rgba(166, 156, 22, 0.822); margin-left: 80px; "  class="">Become a Partner</h1>
+    <button style="color: white;background-color: rgba(210, 118, 20, 0.908);border-radius: 20px;margin-left: 800px;width: 10%;cursor: pointer;border: none;">Start here</button>
+
+  </div>
+  <!-- //become partner// -->
+   <!-- Why you choose us  -->
+   <div style="display: flex; width: 100%; height: 190px;">
+      <div id="titles" style="width: 100%; height: 50%; display: flex; margin-top: 20px">
+        <h3 style="margin-top: 8px; margin-left: 50px;" class="poetsen-one-regular animate__animated animate__zoomIn" >
+        WHY CHOOSE ELITE PRESTIGE <br><br><span style="font-size: 15px;"  >Find everything you need to make your events a success!</span></h3>
+      </div><br>
+        <Div id="Phptos" style="width: 100%; height: 200px; ; display: flex; margin-left: 5px; justify-content: space-between;align-items: center;margin: 2px; ">
+          <div class="roboto-light-italic" >
+            <img src="./Choose us/price.avif" alt="" style="display: flex;width: 80px;height: 80px;border-radius: 50%;"><br>
+            <h6  class="animate__animated animate__zoomIn"  >
+              BEST PRICE GUARANTEE 
+            </h6>
+
+          </div>
+          <div class="roboto-light-italic">
+            <img src="./Choose us/phone.png" alt="" style="display: flex;width: 80px;height: 80px;border-radius: 50%;"><br>
+            <h6 class="animate__animated animate__zoomIn">
+              UNLIMITED SUPPLIES
+            </h6>
+
+          </div>
+          <div class="roboto-light-italic">
+            <img src="./Choose us/service.jpg" alt="" style="display: flex;width: 80px;height: 80px;border-radius: 50%;"><br>
+            <h6 class="animate__animated animate__zoomIn">
+              FAST CUSTOMER SERVICE
+            </h6>
+
+          </div>
+       </Div>
+    </h1>
+        
+    
+
+   </div>
+    <!-- //Why you choose us//  -->
+    <!-- contacts -->
+    <div style="display: flex; width: 100%; height: 300px; background-color: rgba(10, 10, 10, 0.955);">
+      <div style="display: flex;width: 40%;">
+        <img src="./photos/logo.jpg" alt="" style="display: flex; position: absolute;width: 70px;height: 70px;border-radius: 12px;margin-top: 188px;margin-left: 483px;">
+        <h5 style="position: absolute;margin-top: 262px;margin-left: 466px;color: rgb(85, 85, 11);">Elite Prestige</h5>
+        <h3 style="color: white; margin-top: 20px; margin-left: 7px;" class="poetsen-one-regular">
+          Who We Are  <hr>
+          <p style="font-size: 14px; color: rgba(202, 194, 194, 0.856);"><br>
+            Elite Prestige Conference & Events, where unparalleled excellence meets seamless sophistication in the world of event <organization class="br"></organization> At Elite Prestige, we take pride in curating extraordinary experiences that transcend expectations, elevating each event to a prestigious affair.
+          </p>
+        </h3>
+        <!-- media icons -->
+        <div style="margin: 0px; margin-top: 218px;margin-left: 20px;display: flex; position: absolute; border-radius: 50%;"  class="icon">
+          <div style="display: flex;border-radius: 50%; " id="a">
+          <a href="https://wa.me/050 582 2200" style="color: rgba(128, 128, 128, 0);margin-left: 0px;">
+            <img src="./Media icons/whatsapp.webp" alt="" style="display: flex;width: 30px;height: 30px;border-radius: 50%; " class="imge" id="whats"></a>
+          </div>
+        </div>
+        <div style="margin: 0px; margin-top: 218px;margin-left: 80px;display: flex; position: absolute;" class="icon">
+          <div style="display: flex;border-radius: 50%;" id="b">
+          <a href="https://www.instagram.com/eliteprestigeae?igsh=MWZhdDZuZ3RmendoZQ" style="color: rgba(128, 128, 128, 0);margin-left: 0px;">
+            <img src="./Media icons/instegram.jpg" alt="" style="display: flex;width: 30px;height: 30px;border-radius: 50%;" class="imge" id="insta">
+          </a>
+        </div>
+        </div>
+        <div style="margin: 0px; margin-top: 218px;margin-left: 140px;display: flex; position: absolute;" class="icon">
+          <div style="display: flex;border-radius: 50%;" id="c">
+          <a href="https://www.facebook.com/profile.php?id=61556178035716&mibextid=2JQ9oc" style="color: rgba(128, 128, 128, 0);margin-left: 0px;">
+            <img src="./Media icons/facebook.avif" alt="" style="display: flex;width: 30px;height: 30px;border-radius: 50%;" class="imge" id="face">
+          </a>
+        </div>
+        </div>
+        <div style="margin: 0px; margin-top: 218px;margin-left: 200px;display: flex; position: absolute;" class="icon">
+          <div style="display: flex;border-radius: 50%;" id="d">
+          <a href="https://www.snapchat.com/add/eliteprestigeae" style="color: rgba(128, 128, 128, 0); margin-left: 0px;">
+            <img src="./Media icons/sn.jpeg" alt="" style="display: flex;width: 30px;height: 30px;border-radius: 50%;" class="imge" id="snap">
+           </a>
+          </div>
+        </div>
+        
+        <!-- // media icons //-->
+       
+
+      </div>
+      <div style="display: flex;width: 30%;">
+        <h4 style="margin-left: 150px;color: white;margin-top: 35px;" class="poetsen-one-regular">EXPLORE <hr>  
+           <span>  <a href="./elite.html" style="color: rgba(255, 255, 255, 0.486); font-size: 18px;">Home</a>  </span>
+          <br> <br><span>  <a href="./about us.html" style="color: rgba(255, 255, 255, 0.486); font-size: 18px;">About Us</a>  </span>
+          <br> <br><span>  <a href="./contact us.html" style="color: rgba(255, 255, 255, 0.486); font-size: 18px;">Contact Us</a>  </span>
+        </h4> 
+        
+
+      </div>
+      <div style="display: flex;width: 30%;">
+        <h4 style="margin-left: 160px;color: white;margin-top: 35px;" class="poetsen-one-regular">Get in Touch <hr> 
+        <p style="font-size: 12px; color: rgba(202, 194, 194, 0.856);">
+          1st Floor Office 101, Sheikh Ahmed Bin Shaikh Ahmad Bin Nasser bin Zayed Al Nahyan Building (same bldg. of Graphic behind Lulu Supermarket), 
+          Hamdan St., Abu Dhabi, UAE  <br><br><span> Tell:<a href="https://wa.me/50 582 2200" style="color: rgba(255, 255, 255, 0.486); font-size: 12px;">+971 50 582 2200</a></span>
+          <br> <br><span> Email:<a href="Eliteprestige80@gmail.com" style="color: rgba(255, 255, 255, 0.486); font-size: 12px;">Eliteprestige80@gmail.com</a></span>
+          </p> </h4>
+
+      </div >
+
+    </div>
+     <!-- contacts -->
+     
+    
+</body>
+<script>
+//  anime({
+//         targets: '.end-delay-demo .el',
+//         translateX: 250,
+//         endDelay: 1000,
+//         direction: 'alternate'
+//       });
+</script>
+</html>
